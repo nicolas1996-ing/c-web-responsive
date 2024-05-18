@@ -33,23 +33,28 @@
   text-align: center;
 }
 
+.main__menu__list li a{
+  color: inherit;
+  text-decoration: none;
+}
+
 /* escritorio */
 @media only screen and (min-width: 600px) {
   body {
-    background-color: aqua;
+    /* background-color: aqua; */
   }
 }
 
 /* tablet */
 @media only screen and (min-width: 301px) and (max-width: 600px) {
   body {
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
 /* movil */
 @media only screen and (max-width: 300px) {
   body {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
   }
 }
